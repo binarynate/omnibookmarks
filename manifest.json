@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Omnibookmarks",
+  "version": "1.0",
+  "omnibox": { "keyword" : "b" },
+  "permissions": [
+    "notifications",
+    "tabs",
+    "bookmarks"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "img/icon_128.png",
+    "48": "img/icon_48.png",
+    "16": "img/icon_16.png"
+  }
+}
